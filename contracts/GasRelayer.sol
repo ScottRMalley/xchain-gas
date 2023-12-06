@@ -108,18 +108,24 @@ contract GasRelayer is NonblockingLzApp, ERC20Swap {
     // Privileged functions
     // *
 
+    // owner can withdraw accrued protocol fees
     function withdraw(address payable to) external onlyOwner {
         to.transfer(address(this).balance);
     }
 
+    // owner can add an ERC20 token to the whitelist
     function addToWhitelist(address asset, address datafeed) external onlyOwner {
         _addToWhitelist(asset, datafeed);
     }
 
+    // owner can remove an ERC20 token from the whitelist
     function removeFromWhitelist(address asset) external onlyOwner {
         _removeFromWhitelist(asset);
     }
 
+    // owner can set the maximum discount for ERC20 swaps
+    // this gives some leeway in case the price feed is slightly off
+    // from what Uniswap is offering
     function setMaxDiscount(uint256 discount) external onlyOwner {
         _setMaxDiscount(discount);
     }
