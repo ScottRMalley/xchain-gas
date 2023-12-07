@@ -1,5 +1,10 @@
 // SPDX-License-Identifier: BUSL-1.1
 
+//*
+// Code by LayerZero Labs
+// https://github.com/LayerZero-Labs/solidity-examples/blob/main/contracts/lzApp/libs/LzLib.sol
+//*
+
 pragma solidity >=0.6.0;
 pragma experimental ABIEncoderV2;
 

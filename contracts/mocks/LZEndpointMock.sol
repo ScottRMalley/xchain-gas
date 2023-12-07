@@ -1,5 +1,10 @@
 // SPDX-License-Identifier: BUSL-1.1
 
+//*
+// Code by LayerZero Labs
+// https://github.com/LayerZero-Labs/solidity-examples/blob/main/contracts/lzApp/mocks/LZEndpointMock.sol
+//*
+
 pragma solidity ^0.8.0;
 pragma abicoder v2;
 

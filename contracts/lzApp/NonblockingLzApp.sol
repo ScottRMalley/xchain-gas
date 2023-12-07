@@ -1,5 +1,10 @@
 // SPDX-License-Identifier: MIT
 
+//*
+// Code by LayerZero Labs
+// https://github.com/LayerZero-Labs/solidity-examples/blob/main/contracts/lzApp/NonblockingLzApp.sol
+//*
+
 pragma solidity ^0.8.0;
 
 import "./LzApp.sol";

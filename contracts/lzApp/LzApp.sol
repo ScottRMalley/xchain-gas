@@ -1,5 +1,10 @@
 // SPDX-License-Identifier: MIT
 
+//*
+// Code by LayerZero Labs
+// https://github.com/LayerZero-Labs/solidity-examples/blob/main/contracts/lzApp/LzApp.sol
+//*
+
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
